@@ -1,0 +1,40 @@
+.servicesBlock {
+    padding: 120px 100px;
+    background-color: #F9FAFF;
+
+    .innerBox {
+        // padding-top: 92px;
+        // display: flex;
+        .singleBox {
+            padding: 32px 30px;
+            display: flex;
+            justify-content: left;
+            flex-direction: column;
+            cursor:pointer;
+            column-gap: 40px;
+            .imgBox {
+                width: 154px;
+                height: 154px;
+            }
+            .headingLine{
+                // margin: 44px 0px 12px 0px;
+            }
+            &:hover{
+                background-color:#F8F2F2;
+                // position: relative;
+                // margin-top: 60px;
+                box-shadow: 15px 15px 8px #EDEEF3;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .servicesBlock{
+        padding: 120px 50px; 
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 574px) {
+    .servicesBlock{
+        padding: 120px 10px; 
+    }
+}

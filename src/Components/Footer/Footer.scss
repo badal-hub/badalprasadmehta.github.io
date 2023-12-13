@@ -1,0 +1,30 @@
+.topFooterBlock{
+    display: flex;
+    justify-content: center;
+    background-color: #f9faff;
+
+    .footerBlock{
+        display: flex;
+        justify-content: center;
+        padding:32px 0px 32px 0px;
+        border-top: 1px solid #BEC0BF;
+        background-color: #f9faff;
+    width:85%;
+        .innerFooter{
+            .socialMedia{
+                display: flex;
+                .iconSocialMedia{
+                  margin-right: 45px;
+                }
+            }
+        }
+       
+    }
+}
+.lastLine{
+    display:flex;
+    background-color: #f9faff;
+    justify-content: center;
+margin-bottom: 12px;
+align-items: center;
+}

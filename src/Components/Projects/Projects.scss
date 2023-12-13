@@ -1,0 +1,64 @@
+.projectsBlock {
+    background-color: #f8f2f2;
+    padding: 6.944vw 8.333vw;
+
+    .centerCard {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+    }
+    .projectCard {
+        margin-top: 4.444vw;
+        border-radius: 24px;
+        display: flex;
+        // width: 992px;
+        // height: 524px;
+        justify-content: center;
+        align-items: center;
+background-color: #fff;
+        
+        .textBlock {
+            margin-left: 50px;
+            margin-right:38px;
+            width: 50%;
+            .proName {
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%;
+                color: #25282b;
+            }
+            .btn{
+                padding: 12px 24px;
+                border-radius: 12px;
+            }
+        }
+        .imageBlock {
+            width: 50%;
+            .imgOfPro {
+                border-radius: 0px 24px 24px 0px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 574px) {
+    .projectsBlock{
+        padding: 60px 20px;
+        .projectCard{
+            flex-wrap:wrap-reverse;
+            padding-bottom: 18px;
+            .imageBlock{
+                width:100%;
+                .imgOfPro{
+                    border-radius: 24px 24px 0px 0px;
+                }
+            }
+            .textBlock{
+                .proName{
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}

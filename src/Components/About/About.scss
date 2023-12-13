@@ -1,0 +1,55 @@
+.aboutBlock {
+    background-color: #f8f2f2;
+    padding: 6.944vw 8.333vw;
+    display: flex;
+    .imageSection {
+        width: 40%;
+    }
+    .aboutBlock {
+        // width:60%;
+        display: flex;
+        flex-direction: column;
+     
+        .introSec {
+            width: 35vw;
+            margin-top: 40px;
+            margin-bottom: 32px;
+        }
+        .buttonGrp {
+            margin-top: 24px;
+            .buttonProjects {
+                margin-right: 12px;
+                padding: 12px 24px;
+                border-radius: 12px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .aboutBlock{
+        flex-wrap: wrap;
+        .imageSection{
+            width:100%;
+        }
+        .aboutBlock{
+            .introSec{
+                width:100%;
+                text-align: justify;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 574px) {
+    .aboutBlock{
+        flex-wrap: wrap;
+        .imageSection{
+            width:100%;
+        }
+        .aboutBlock{
+            .introSec{
+                width:100%;
+                text-align: justify;
+            }
+        }
+    }
+  }

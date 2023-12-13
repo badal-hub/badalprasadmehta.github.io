@@ -1,0 +1,29 @@
+.appBar{
+   background-color: transparent !important;
+   box-shadow: none !important;
+   position: sticky !important;
+   .navButton{
+    margin-right: 3.33vw;
+   }
+}
+@media only screen and (min-width: 1599px) and (max-width: 1800px) {
+}
+@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+}
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+ 
+}
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    .appBar{
+        background-color: #FD5956 !important;
+     }
+}
+@media only screen and (min-width: 300px) and (max-width: 574px) {
+    .appBar{
+        background-color: #FD5956 !important;
+     }
+}

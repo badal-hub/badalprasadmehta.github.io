@@ -1,0 +1,134 @@
+.contactBlock {
+    padding: 0px 120px 150px 120px;
+    background-color: #f9faff;
+    .contactText {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0px 64px 0px;
+        width: 100%;
+        text-align: center;
+        .innerText {
+            width: 35%;
+        }
+    }
+    .formBlock {
+        display: flex;
+        .leftForm {
+            .innerLeftForm {
+                display: flex;
+                background-color: #ffffff;
+                padding: 24px 172px 24px 24px;
+                border-radius: 8px;
+                margin-bottom: 24px;
+            }
+        }
+        .rightForm {
+            margin-left: 32px;
+            .mytextfield {
+                background-color: #ffffff;
+                width: 29.167vw;
+                border-radius: 8px;
+                // border: 0.3px solid #bec0bf;
+                // margin-right:32px;
+            }
+            .myTextArea {
+                background-color: #ffffff;
+                width: 59.375vw;
+                border-radius: 8px;
+                // border: 0.3px solid #bec0bf;
+            }
+        }
+    }
+    .buttonSubmit {
+        display: flex;
+        justify-content: flex-end;
+        .btn {
+            padding: 16px 24px;
+            border-radius: 12px;
+        }
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+      .contactBlock {
+        .formBlock {
+            flex-wrap: wrap;
+            .leftForm {
+                display:flex;
+                flex-wrap: wrap;
+                column-gap: 20px;
+                .innerLeftForm {
+                    display: flex;
+                    background-color: #ffffff;
+                    padding: 24px 72px 24px 24px;
+                    border-radius: 8px;
+                    margin-bottom: 24px;
+                }
+            }
+            .rightForm {
+                margin-left: 0px;
+                .mytextfield {
+                    width: 31.167vw;
+                }
+                .myTextArea {
+                    width: 64.167vw;
+                }
+            }
+        }
+        .buttonSubmit {
+            margin-top: 20px;
+            margin-right: 123px;
+        }
+    }  
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .contactBlock {
+        .formBlock {
+            flex-wrap: wrap;
+            .rightForm {
+                margin-left: 0px;
+                .mytextfield {
+                    width: 31.167vw;
+                }
+                .myTextArea {
+                    width: 64.167vw;
+                }
+            }
+        }
+        .buttonSubmit {
+            margin-top: 20px;
+            margin-right: 36px;
+        }
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 574px) {
+    .contactBlock {
+        padding: 60px 10px;
+        .formBlock {
+            flex-wrap: wrap;
+            .leftForm {
+                .innerLeftForm {
+                    padding: 24px 48px 24px 24px;
+                }
+            }
+            .rightForm {
+                .mytextfield {
+                    width: 38vw;
+                }
+                .myTextArea {
+                    width: 82vw;
+                }
+            }
+        }
+        .contactText {
+            .innerText {
+                width: 100%;
+            }
+        }
+        .buttonSubmit {
+            padding: 20px 18px 20px 0px;
+            .btn {
+                padding: 10px 16px;
+            }
+        }
+    }
+}

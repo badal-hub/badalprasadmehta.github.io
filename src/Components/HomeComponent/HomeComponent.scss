@@ -1,0 +1,81 @@
+.homeComponent {
+  margin: 6.75vw 0vw 16.181vw 9.9vw;
+  display: flex;
+  .leftBlock {
+    width: 50%;
+    .HelloText {
+      margin-top: 12px;
+      margin-bottom: 32px;
+    }
+    .buttonGrp {
+      margin-top: 24px;
+      .buttonProjects {
+        margin-right: 12px;
+        padding: 12px 24px;
+        border-radius: 12px;
+      }
+    }
+  }
+  .rightBlock {
+    width: 50%;
+    .homeImage {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 720px;
+      height: 629px;
+    }
+  }
+}
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+  .homeComponent {
+    .rightBlock {
+      top: 48px;
+    }
+  }
+}
+@media only screen and (min-width: 1599px) and (max-width: 1800px) {
+}
+@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+}
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .homeComponent {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    .leftBlock {
+      width: 100%;
+      margin-top: 500px;
+    }
+    .rightBlock {
+      // display:none;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .homeComponent {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    .leftBlock {
+      width: 100%;
+      margin-top: 500px;
+    }
+    .rightBlock {
+      // display:none;
+    }
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 574px) {
+  .homeComponent {
+    margin: 0px;
+    padding: 40px 10px;
+    .leftBlock{
+      padding: 20px;
+      width: 100%;
+    }
+    .rightBlock {
+      display: none;
+    }
+  }
+}

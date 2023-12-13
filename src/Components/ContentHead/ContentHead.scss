@@ -1,0 +1,11 @@
+.contentHeadBlock {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .borderBottom {
+        border-bottom: 2px solid #FD5956;
+        width: 100px;
+        margin-top: 8px;
+    }
+}
