@@ -24,11 +24,11 @@ const About = () => {
           <ContentHead text="About me" />
           <Box className="introSec">
             <Typography variant="twentyFourNormal">
-              I am a dedicated software developer, specializing in frontend
-              technologies. With a passion for solving complex problems through
-              code, I strive to create intuitive and visually appealing user
-              interfaces. Committed to continuous learning and delivering
-              high-quality software solutions for a seamless user experience.
+              Passionate front-end developer skilled in React, adept at creating
+              dynamic and responsive user interfaces. Committed to delivering
+              seamless user experiences through innovative design and efficient
+              code. Continuous learner, dedicated to staying current with
+              industry trends and best practices
             </Typography>
           </Box>
           <Box className="buttonGrp">

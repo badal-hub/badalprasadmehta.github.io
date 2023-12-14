@@ -48,6 +48,17 @@
         }
     }
 }
+@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+    .contactBlock .formBlock .rightForm {
+    .myTextArea {
+        background-color: #ffffff;
+        width: 45.375vw;
+       
+    }
+    .mytextfield {
+        width:22.167vw;
+    }}
+}
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
       .contactBlock {
         .formBlock {

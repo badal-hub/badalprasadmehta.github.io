@@ -30,7 +30,7 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box  sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        Badal Prasad mobile
+        Menu
       </Typography>
       <Divider />
       <Box sx={{ display: { xs: "flex", sm: "none"},flexDirection:"column" }} >
