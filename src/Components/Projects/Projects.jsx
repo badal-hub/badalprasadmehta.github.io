@@ -74,7 +74,7 @@ const Projects = () => {
     },
     {
       id: 3,
-      name: "Swiggy Clone",
+      name: "Swiggy Clone (Must install extension for Allow CORS)",
       para: "Swiggy is India's largest online food item ordering & delivery chain, it also tops the chart of India's Unicorn startup lists. It's a Bangalore-based startup started in 2014, and as of now, it's expanded to more than 100 Indian cities.",
       im: swiggy,
       link: "https://foodlover-six.vercel.app/",
